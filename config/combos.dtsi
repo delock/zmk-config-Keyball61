@@ -112,25 +112,24 @@
 //ZMK_COMBO(f12,   &kp F12,       LB3 LH4,     NAV, COMBO_TERM_DEFAULT)
 
 // left hand special cluster
-//ZMK_COMBO(tab,   &kp TAB,       LT2 LT3,     DEF NAV, COMBO_TERM_DEFAULT)
-//ZMK_COMBO(esc,   &kp ESC,       LM2 LM3,     DEF NAV, COMBO_TERM_DEFAULT)
-
+ZMK_COMBO(tab,   &kp TAB,       LT2 LT3,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(esc,   &kp ESC,       LM2 LM3,     DEF NAV, COMBO_TERM_DEFAULT)
 
 // symbol cluster
-//ZMK_COMBO(lbkt,  &kp LBKT,      RT1 RM1,     DEF NAV, COMBO_TERM_DEFAULT)
-//ZMK_COMBO(rbkt,  &kp RBKT,      RT2 RM2,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(lbkt,  &kp LBKT,      RT1 RM1,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(rbkt,  &kp RBKT,      RT2 RM2,     DEF NAV, COMBO_TERM_DEFAULT)
 
-//ZMK_COMBO(grave2,&kp GRAVE,     RT3 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(grave2,&kp GRAVE,     RT3 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
 ZMK_COMBO(minus, &kp MINUS,     RT0 RM0,     DEF NAV, COMBO_TERM_DEFAULT)
 ZMK_COMBO(equal, &kp EQUAL,     RM0 RB0,     DEF NAV, COMBO_TERM_DEFAULT)
 
-//ZMK_COMBO(bslh,  &kp BSLH,      RM4 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(bslh,  &kp BSLH,      RM4 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
 ZMK_COMBO(sqt,   &kp SQT,       RM3 RM4,     DEF NAV, COMBO_TERM_DEFAULT)
 
 // right hand special cluster
-//ZMK_COMBO(bspc,  &kp BSPC,      RT2 RT3,     DEF, COMBO_TERM_DEFAULT)
-//ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     NAV, COMBO_TERM_DEFAULT)
-//ZMK_COMBO(enter, &kp ENTER,     RM2 RM3,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(bspc,  &kp BSPC,      RT2 RT3,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(enter, &kp ENTER,     RM2 RM3,     DEF NAV, COMBO_TERM_DEFAULT)
 
 // bt toggle
 //ZMK_COMBO(to_usb,&out OUT_USB,  LH5 LH4 LH3, DEF, COMBO_TERM_DEFAULT)
