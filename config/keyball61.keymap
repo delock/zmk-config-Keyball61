@@ -1,5 +1,5 @@
-#define DEFAULT 0
-#define SYM     1
+#define DEF     0
+#define NAV     1
 #define FUN     2
 #define MOUSE   3
 #define SCROLL  4
