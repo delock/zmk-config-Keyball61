@@ -1,0 +1,112 @@
+/*                KEY POSITIONS
+
+╭─────────────────────╮         ╭─────────────────────╮
+│ LT4 LT3 LT2 LT1 LT0 │         │ RT0 RT1 RT2 RT3 RT4 │
+│ LM4 LM3 LM2 LM1 LM0 │         │ RM0 RM1 RM2 RM3 RM4 │
+│ LB4 LB3 LB2 LB1 LB0 ╰───╮ ╭───╯ RB0 RB1 RB2 RB3 RB4 │
+│ LH5 LH4 LH3 LH2 LH1 LH0 │ │ RH0 RH1 ╭─────────╮ RH2 │
+╰─────────────────────────╯ ╰─────────╯         ╰─────╯*/
+
+#define LT4 0
+#define LT3 1
+#define LT2 2
+#define LT1 3
+#define LT0 4
+
+#define RT0 5
+#define RT1 6
+#define RT2 7
+#define RT3 8
+#define RT4 9
+
+#define LM4 10
+#define LM3 11
+#define LM2 12
+#define LM1 13
+#define LM0 14
+
+#define RM0 15
+#define RM1 16
+#define RM2 17
+#define RM3 18
+#define RM4 19
+
+#define LB4 20
+#define LB3 21
+#define LB2 22
+#define LB1 23
+#define LB0 24
+
+#define RB0 25
+#define RB1 26
+#define RB2 27
+#define RB3 28
+#define RB4 29
+
+#define LH5 30
+#define LH4 31
+#define LH3 32
+#define LH2 33
+#define LH1 34
+#define LH0 35
+
+#define RH0 36
+#define RH1 37
+#define RH2 38
+
+// use global-quick-tap-ms for combos (requires PR 1387)
+#undef COMBO_HOOK
+#define COMBO_HOOK global-quick-tap-ms = <100>;
+
+#define COMBO_TERM_DEFAULT 50
+
+// number cluster
+ZMK_COMBO(one_,  &kp N1,        LT4 LM4,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(two_,  &kp N2,        LT3 LM3,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(three, &kp N3,        LM2 LT2,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(four,  &kp N4,        LM1 LT1,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(five,  &kp N5,        LM0 LT0,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(six_,  &kp N6,        LB4 LM4,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(seven_,&kp N7,        LB3 LM3,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(eight, &kp N8,        LM2 LB2,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(nine,  &kp N9,        LM1 LB1,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(zero,  &kp N0,        LM0 LB0,     DEF, COMBO_TERM_DEFAULT)
+
+// FN cluster
+ZMK_COMBO(f1_,   &kp F1,        LT4 LM4,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f2_,   &kp F2,        LT3 LM3,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f3,    &kp F3,        LM2 LT2,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f4,    &kp F4,        LM1 LT1,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f5,    &kp F5,        LM0 LT0,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f6_,   &kp F6,        LB4 LM4,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f7_,   &kp F7,        LB3 LM3,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f8,    &kp F8,        LM2 LB2,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f9,    &kp F9,        LM1 LB1,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f10,   &kp F10,       LM0 LB0,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f11,   &kp F11,       LB4 LH5,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(f12,   &kp F12,       LB3 LH4,     NAV, COMBO_TERM_DEFAULT)
+
+// left hand special cluster
+ZMK_COMBO(tab,   &kp TAB,       LT2 LT3,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(esc,   &kp ESC,       LM2 LM3,     DEF NAV, COMBO_TERM_DEFAULT)
+
+
+// symbol cluster
+ZMK_COMBO(lbkt,  &kp LBKT,      RT1 RM1,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(rbkt,  &kp RBKT,      RT2 RM2,     DEF NAV, COMBO_TERM_DEFAULT)
+
+ZMK_COMBO(grave2,&kp GRAVE,     RT3 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(minus, &kp MINUS,     RT0 RM0,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(equal, &kp EQUAL,     RM0 RB0,     DEF NAV, COMBO_TERM_DEFAULT)
+
+ZMK_COMBO(bslh,  &kp BSLH,      RM4 RT4,     DEF NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(sqt,   &kp SQT,       RM3 RM4,     DEF NAV, COMBO_TERM_DEFAULT)
+
+// right hand special cluster
+ZMK_COMBO(bspc,  &kp BSPC,      RT2 RT3,     DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     NAV, COMBO_TERM_DEFAULT)
+ZMK_COMBO(enter, &kp ENTER,     RM2 RM3,     DEF NAV, COMBO_TERM_DEFAULT)
+
+// bt toggle
+ZMK_COMBO(to_usb,&out OUT_USB,  LH5 LH4 LH3, DEF, COMBO_TERM_DEFAULT)
+ZMK_COMBO(to_bt, &out OUT_BLE,  LH5 LH4 LH3, NAV, COMBO_TERM_DEFAULT)
