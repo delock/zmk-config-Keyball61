@@ -59,10 +59,10 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6    &kp F7    &kp F8       &kp F9       &kp F10       &kp F11
-&trans &trans &trans &trans &trans &trans                  &kp LC(C) &kp PG_UP &kp HOME     &kp END      &kp LC(V)     &kp F12
+&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6    &kp F7    &kp F8       &kp F9       &kp F10       &kp DEL
+&trans &trans &trans &trans &trans &trans                  &kp LC(C) &kp PG_UP &kp HOME     &kp END      &kp LC(V)     &trans
 &trans &trans &trans &trans &trans &trans                  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT    &kp PSCRN     &trans
-&trans &trans &trans &trans &trans &trans  &trans  &trans  &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
+&trans &trans &trans &trans &trans &trans  &kp F11 &kp F12 &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
 &trans &trans &trans &trans
                             &trans &trans  &trans          &trans  &trans                                &trans        &trans
             >;
@@ -71,12 +71,12 @@
         sys_layer {
             label = "SYS";
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4              &none  &none &none &none &none &none
-&none      &none        &none        &none        &none        &none                     &none  &none &none &none &none &none
-&none      &none        &none        &none        &none        &none                     &none  &none &none &none &none &none
-&none      &none        &none        &none        &none        &none         &none &none &none  &none &none &none &none &none
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                          &none       &none &none &none &none &none
+&none      &none        &none        &none        &out OUT_BLE &out OUT_USB                                 &none       &none &none &none &none &none
+&none      &none        &none        &none        &none        &none                                 &none       &none &none &none &none &none
+&none      &none        &none        &none        &none        &sys_reset    &bootloader &bootloader &sys_reset  &none &none &none &none &none
 &none      &none        &none        &none
-                                                  &none        &none         &none       &none  &none             &none &none
+                                                  &none        &none         &none                   &none       &none             &none &none
             >;
         };
 
