@@ -1,13 +1,14 @@
 / {
    macros {
-      viq: viq {
+      vimq: vimq {
          compatible = "zmk,macro";
          label = "vim quit";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
             &kp Q
-            &kp RETURN
+            &kp A
+            &kp RET
          >;
       };
    };
@@ -15,15 +16,16 @@
 
 / {
    macros {
-      viw: viw {
+      vimw: vimw {
          compatible = "zmk,macro";
          label = "vim write";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
             &kp W
-            &kp EXCLAMATION
-            &kp RETURN
+            &kp A
+            &kp EXCL
+            &kp RET
          >;
       };
    };
