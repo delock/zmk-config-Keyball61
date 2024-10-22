@@ -2,7 +2,6 @@
    macros {
       vimq: vimq {
          compatible = "zmk,macro";
-         label = "vim quit";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
@@ -18,7 +17,6 @@
    macros {
       vimw: vimw {
          compatible = "zmk,macro";
-         label = "vim write";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
