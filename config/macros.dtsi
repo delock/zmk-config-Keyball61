@@ -1,7 +1,7 @@
 / {
    macros {
       vimq: vimq {
-         compatible = "zmk,macro";
+         compatible = "zmk,behavior-macro";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
@@ -16,7 +16,7 @@
 / {
    macros {
       vimw: vimw {
-         compatible = "zmk,macro";
+         compatible = "zmk,behavior-macro";
          #binding-cells = <0>;
          bindings = <
             &kp COLON
