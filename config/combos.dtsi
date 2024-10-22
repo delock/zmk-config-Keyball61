@@ -108,8 +108,8 @@
 //ZMK_COMBO(f8,    &kp F8,        LM2 LB2,     NAV, COMBO_TERM_DEFAULT)
 //ZMK_COMBO(f9,    &kp F9,        LM1 LB1,     NAV, COMBO_TERM_DEFAULT)
 //ZMK_COMBO(f10,   &kp F10,       LM0 LB0,     NAV, COMBO_TERM_DEFAULT)
-ZMK_COMBO(f11,   &kp F11,       LN3 LT3,     NAV, COMBO_TERM_DEFAULT)
-ZMK_COMBO(f12,   &kp F12,       LN4 LT4,     NAV, COMBO_TERM_DEFAULT)
+//ZMK_COMBO(f11,   &kp F11,       LN3 LT3,     NAV, COMBO_TERM_DEFAULT)
+//ZMK_COMBO(f12,   &kp F12,       LN4 LT4,     NAV, COMBO_TERM_DEFAULT)
 
 // left hand special cluster
 ZMK_COMBO(tab,   &kp TAB,       LT2 LT3,     DEF NAV, COMBO_TERM_DEFAULT)
