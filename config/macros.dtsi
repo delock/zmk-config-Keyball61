@@ -1,0 +1,30 @@
+/ {
+   macros {
+      viq: viq {
+         compatible = "zmk,macro";
+         label = "vim quit";
+         #binding-cells = <0>;
+         bindings = <
+            &kp COLON
+            &kp Q
+            &kp RETURN
+         >;
+      };
+   };
+};
+
+/ {
+   macros {
+      viw: viw {
+         compatible = "zmk,macro";
+         label = "vim write";
+         #binding-cells = <0>;
+         bindings = <
+            &kp COLON
+            &kp W
+            &kp EXCLAMATION
+            &kp RETURN
+         >;
+      };
+   };
+};

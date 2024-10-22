@@ -14,6 +14,7 @@
 
 #include "zmk-helpers/helper.h"
 #include "combos.dtsi"
+#include "macros.dtsi"
 
 &lt {
     tapping-term-ms = <240>;
@@ -59,12 +60,12 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6    &kp F7    &kp F8       &kp F9       &kp F10       &kp DEL
-&trans &trans &trans &trans &trans &trans                  &kp LC(C) &kp PG_UP &kp HOME     &kp END      &kp LC(V)     &trans
-&trans &trans &trans &trans &trans &trans                  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT    &kp PSCRN     &trans
-&trans &trans &trans &trans &trans &trans  &trans  &trans  &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
-&trans &trans &trans &trans
-                            &trans &trans  &trans          &trans  &trans                                &trans        &trans
+&trans &kp F1     &kp F2     &kp F3 &kp F4 &kp F5                  &kp F6    &kp F7    &kp F8       &kp F9       &kp F10       &kp DEL
+&trans &macro viq &macro viw &trans &trans &trans                  &kp LC(C) &kp PG_UP &kp HOME     &kp END      &kp LC(V)     &trans
+&trans &trans     &trans     &trans &trans &trans                  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT    &kp PSCRN     &trans
+&trans &trans     &trans     &trans &trans &trans  &trans  &trans  &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
+&trans &trans     &trans     &trans
+                                    &trans &trans  &trans          &trans  &trans                                &trans        &trans
             >;
         };
 
