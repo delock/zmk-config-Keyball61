@@ -53,7 +53,7 @@
 &kp LEFT_SHIFT &kp A      &kp S         &kp D         &kp F   &kp G                                       &kp H            &kp J   &kp K      &kp L    &kp SEMI       &none
 &none          &kp Z      &kp X         &kp C         &kp V   &kp B  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
 &kp LCTRL      &none      &none         &kp LEFT_WIN
-                                                      &kp LEFT_ALT &lt 1 SPACE     &kp F12                &kp F11          &lt 1 SPACE                 &mo 5          &mo 2
+                                        &kp LEFT_ALT  &lt 1 SPACE    &kp LEFT_BRACE    &kp RIGHT_BRACE    &lt 1 SPACE                                  &mo 5          &mo 2
             >;
         };
 
@@ -63,7 +63,7 @@
 &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6    &kp F7    &kp F8       &kp F9       &kp F10       &trans
 &trans &vimq  &vimw  &trans &trans &trans                  &kp LC(C) &kp PG_UP &kp HOME     &kp END      &kp LC(V)     &trans
 &trans &trans &trans &trans &trans &trans                  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT    &kp PSCRN     &trans
-&trans &trans &trans &trans &trans &trans  &trans  &trans  &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
+&trans &trans &trans &trans &trans &trans  &kp F11 &kp F12 &kp LC(X) &kp PG_DN &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_CALC &trans
 &trans &trans &trans &trans
                                     &trans &trans  &trans          &trans  &trans                        &trans        &trans
             >;
