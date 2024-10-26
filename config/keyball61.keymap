@@ -53,7 +53,7 @@
 &kp LEFT_SHIFT &kp A      &kp S         &kp D         &kp F   &kp G                                       &kp H            &kp J   &kp K      &kp L    &kp SEMI       &none
 &none          &kp Z      &kp X         &kp C         &kp V   &kp B  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
 &kp LCTRL      &none      &none         &kp LEFT_WIN
-                                                      &kp LEFT_ALT &kp LEFT_SHIFT  &none                  &kp F11          &lt 1 SPACE                 &mo 5          &mo 2
+                                                      &kp LEFT_ALT &lt 1 SPACE     &kp F12                &kp F11          &lt 1 SPACE                 &mo 5          &mo 2
             >;
         };
 
