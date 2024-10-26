@@ -56,8 +56,8 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - F12
-  - F11
+  - '{'
+  - '}'
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - sys
   - mouse
@@ -104,8 +104,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
+  - F12
   - Ctl+ X
   - PG DN
   - $$mdi:volume-low$$
