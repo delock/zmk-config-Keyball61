@@ -55,7 +55,7 @@ xxx        &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                           
 xxx        &kp Q   &kp W   &kp E     &kp R     &kp T                                    &kp Y        &kp U   &kp I      &kp O    &kp P     xxx
 &kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                                    &kp H        &kp J   &kp K      &kp L    &kp SEMI  xxx
 xxx        &kp Z   &kp X   &kp C     &kp V     &kp B      &mt LBRC LBKT  &mt RBRC RBKT  &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&kp LCTRL  xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      &kp LC(I)      &lt 1 SPACE                              &mo 5     &mo 2
+&kp LCTRL  xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      &kp F12        &lt 1 SPACE                              &mo 5     &mo 2
             >;
         };
 
