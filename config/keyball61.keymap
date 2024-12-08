@@ -55,7 +55,7 @@ xxx        &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                           
 xxx        &kp Q   &kp W   &kp E     &kp R     &kp T                                    &kp Y        &kp U   &kp I      &kp O    &kp P     xxx
 &kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                                    &kp H        &kp J   &kp K      &kp L    &kp SEMI  xxx
 xxx        &kp Z   &kp X   &kp C     &kp V     &kp B      &mt LBRC LBKT  &mt RBRC RBKT  &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&kp LCTRL  xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      &kp F12        &lt 1 SPACE                              &mo 5     &mo 2
+&kp LCTRL  xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      &kp F12        &lt 1 SPACE                              &mo 3     &mo 2
             >;
         };
 
@@ -84,11 +84,11 @@ ___  xxx  xxx  ___  ___  ___  ___  xxx  xxx                                     
         scroll_layer {
             label = "SCROLL";
             bindings = <
-___  ___  ___  ___  ___  ___            ___  ___  ___  ___  ___  ___
-___  ___  ___  ___  ___  ___            ___  ___  ___  ___  ___  ___
-___  ___  ___  ___  ___  ___            ___  ___  ___  ___  ___  ___
-___  ___  ___  ___  ___  ___  ___  ___  ___  ___  ___  ___  ___  ___
-___  ___  ___  ___  ___  ___  ___  ___  ___                 ___  ___
+xxx  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                            xxx         xxx  xxx  xxx  xxx  xxx
+xxx  &bt BT_CLR    xxx           xxx          &out OUT_BLE  &out OUT_USB                            xxx         xxx  xxx  xxx  xxx  xxx
+xxx  xxx           xxx           xxx          xxx           xxx                                     xxx         xxx  xxx  xxx  xxx  xxx
+xxx  xxx           xxx           xxx          xxx           &sys_reset    &bootloader  &bootloader  &sys_reset  xxx  xxx  xxx  xxx  xxx
+xxx  xxx           xxx           xxx          &kp CAPS      &kp SLCK      &kp KP_NUM   xxx          xxx                        xxx  xxx
             >;
         };
 
