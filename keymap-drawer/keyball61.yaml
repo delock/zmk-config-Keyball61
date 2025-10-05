@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball61}
 layers:
   QWERT:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -50,14 +51,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LWIN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - F12
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - SCROLL
   - MOUSE
@@ -80,11 +81,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ C
+  - Ctl+C
   - PG UP
   - HOME
   - END
-  - Ctl+ V
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -104,9 +105,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
   - F12
-  - Ctl+ X
+  - F11
+  - Ctl+X
   - PG DN
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
