@@ -55,7 +55,7 @@ xxx        &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                           
 xxx        &kp Q   &kp W   &kp E     &kp R     &kp T                                    &kp Y        &kp U   &kp I      &kp O    &kp P     xxx
 &kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                                    &kp H        &kp J   &kp K      &kp L    &kp SEMI  xxx
 xxx        &kp Z   &kp X   &kp C     &kp V     &kp B      &mt LBRC LBKT  &mt RBRC RBKT  &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&kp LCTRL  xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      &kp F12        &lt 1 SPACE                              &mo 3     &mo 2
+xxx        xxx     xxx     &kp LWIN  &kp LALT  &kp LSHFT  &kp LCTRL      xxx            &lt 1 SPACE                              &mo 3     &mo 2
             >;
         };
 
@@ -65,7 +65,7 @@ xxx        &kp Z   &kp X   &kp C     &kp V     &kp B      &mt LBRC LBKT  &mt RBR
 ___  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6     &kp F7     &kp F8        &kp F9        &kp F10        ___
 ___  &vimq   &vimw   ___     ___     ___                       &kp LC(C)  &kp PG_UP  &kp HOME      &kp END       &kp LC(V)      ___
 ___  ___     ___     ___     ___     ___                       &kp LEFT   &kp DOWN   &kp UP        &kp RIGHT     &kp PSCRN      ___
-___  ___     ___     ___     ___     ___     &kp F11  &kp F12  &kp LC(X)  &kp PG_DN  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_AL_CALC  ___
+___  ___     ___     ___     ___     ___     &kp F12  &kp F11  &kp LC(X)  &kp PG_DN  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_AL_CALC  ___
 ___  ___     ___     ___     ___     ___     ___      ___      ___                                               ___            ___
             >;
         };
